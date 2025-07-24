@@ -10,10 +10,10 @@ A futuristic delivery tracking frontend using drone animation – built with HTM
 - Designed by **Piyush Joshi**
 
 ## 🖼️ Preview
-![Preview](./assets/preview.png)
+![Preview](./assets/map.png)
 
 ## 🌐 Live Demo
-[Click here](https://piyush2707.github.io/drone-delivery-tracking-ui/)
+[Click here](https://piyush2707.github.io/Drone-Delivery-Ui/)
 
 ---
 
