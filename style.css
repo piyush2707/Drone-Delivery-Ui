@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: #f0f2f5;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: #2b2e4a;
+}
+
+header p {
+  font-size: 1rem;
+  color: #555;
+}
+
+.tracking-map {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.map {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.drone {
+  position: absolute;
+  width: 50px;
+  top: 50%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+  animation: fly 6s linear infinite;
+}
+
+@keyframes fly {
+  0% {
+    left: 10%;
+    top: 50%;
+  }
+  50% {
+    left: 50%;
+    top: 40%;
+  }
+  100% {
+    left: 90%;
+    top: 60%;
+  }
+}
+
+.delivery-info {
+  max-width: 600px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.delivery-info h2 {
+  margin-bottom: 15px;
+  color: #2b2e4a;
+}
+
+.delivery-info ul {
+  list-style: none;
+}
+
+.delivery-info li {
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 0.9rem;
+  color: #777;
+}
